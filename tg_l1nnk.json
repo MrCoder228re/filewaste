@@ -1,0 +1,32 @@
+{
+    "createdBy": "DiopinYT",
+    "createdAt": "2022-07-02T08:15:10.057Z",
+    "redirects": [
+        {
+            "description": "fix YT Avatars by youtube.com/@diopinyt",
+            "exampleUrl": "https://yt3.ggpht.com/img/lol.png",
+            "exampleResult": "https://yt4.ggpht.com/img/lol.png",
+            "error": null,
+            "includePattern": "https://yt3.ggpht.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://yt4.ggpht.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame",
+                "sub_frame",
+                "stylesheet",
+                "script",
+                "image",
+                "imageset",
+                "object",
+                "xmlhttprequest",
+                "history",
+                "other"
+            ]
+        }
+    ]
+}
